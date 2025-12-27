@@ -1,28 +1,51 @@
-name: CI-Build
+name: Build
 
 on:
-  pull_request:
-    branches:
-      - "main"
-      - "master"
+  workflow_dispatch:
+    inputs:
+      build-mode:
+        description: 'Build mode'
+        required: true
+        type: choice
+        options: ['ci']
+
+  workflow_call:
+    inputs:
+      build-mode:
+        description: 'Build mode'
+        required: true
+        type: string
+      git-tag-version:
+        description: 'git tag name starting with v'
+        required: false
+        type: string
+    outputs:
+      artifact-name:
+        description: 'artifact name'
+        value: ${{ jobs.build.outputs.artifact-name }}
 
 env:
   BUILD_VERSION: ""
+  TAG_VERSION: ${{ inputs.git-tag-version }}
 
 jobs:
   build:
-    name: ci-build
+    name: build
     runs-on: windows-latest
+    outputs:
+      artifact-name: ${{ steps.set-artifact-name.outputs.artifact-name }}
     steps:
       # Checkout git repository
       # https://github.com/actions/checkout
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ env.TAG_VERSION }}
 
       # Setup msbuild
       # https://github.com/microsoft/setup-msbuild
       - name: Setup msbuild
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@v2
 
       # Setup NuGet
       # https://github.com/NuGet/setup-nuget
@@ -40,12 +63,25 @@ jobs:
 
       # Update VSIX Version Number
       # https://github.com/cezarypiatek/VsixVersionAction
-      - name: Update version number
+      - name: Update version number for CI build
         uses: cezarypiatek/VsixVersionAction@1.1
         with:
           version: "${{ env.BUILD_VERSION }}.${{ github.run_number }}"
           vsix-manifest-file: './src/StarrySky/source.extension.vsixmanifest'
-        if: github.event_name == 'pull_request'
+        if: inputs.build-mode == 'ci'
+
+      # Version Check
+      - name: Version Check
+        run: |
+          $build_version = "v" + $($env:BUILD_VERSION)
+          Write-Output "Build Version = $build_version"
+          $tag_version = $($env:TAG_VERSION)
+          Write-Output "GitTag Version = $tag_version"
+          if (-Not($build_version -eq $tag_version)) {
+            Write-Output "Version Mismatch!"
+            exit 1
+          }
+        if: inputs.build-mode == 'release'
 
       # Restore Apps
       - name: Restore the app
@@ -57,10 +93,17 @@ jobs:
         run: |
           msbuild /p:Configuration=Release
 
+      # Set up artifact name
+      - name: Set artifact name
+        id: set-artifact-name
+        run: |
+          "artifact-name=StarrySky-${{ env.BUILD_VERSION }}.${{ github.run_number }}" | 
+            Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
       # Upload artifacts
       # https://github.com/actions/upload-artifact
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
-          name: "StarrySky-${{ env.BUILD_VERSION }}.${{ github.run_number }}"
+          name: ${{ steps.set-artifact-name.outputs.artifact-name }}
           path: ./src/StarrySky/bin/Release/StarrySky.vsix
