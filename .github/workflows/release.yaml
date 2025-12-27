@@ -1,74 +1,46 @@
 name: Release
 
 on:
-  release:
-    types: [published]
+  workflow_call:
+    inputs:
+      artifact-name:
+        description: 'The name of artifacts to release'
+        required: true
+        type: string
+      git-tag-version:
+        description: 'git tag name starting with v'
+        required: true
+        type: string
 
 env:
-  BUILD_VERSION: ""
-  TAG_VERSION: ${{ github.ref_name }}
+  RELEASE_FILE: ""
 
 jobs:
   release:
-    name: release-build
-    runs-on: windows-latest
+    name: release
+    runs-on: ubuntu-latest
     steps:
-      # Checkout git repository
-      # https://github.com/actions/checkout
-      - name: Checkout
-        uses: actions/checkout@v4
+      # Download artifact
+      # https://github.com/actions/download-artifact
+      - uses: actions/download-artifact@v5
+        with:
+          name: ${{ inputs.artifact-name }}
 
-      # Setup msbuild
-      # https://github.com/microsoft/setup-msbuild
-      - name: Setup msbuild
-        uses: microsoft/setup-msbuild@v1.1
-
-      # Setup NuGet
-      # https://github.com/NuGet/setup-nuget
-      - name: Setup NuGet
-        uses: nuget/setup-nuget@v2
-
-      # Retrieve version number from vsixmanifest
-      - name: Retrieve version number from vsixmanifest
+      # Set Release file name
+      - name: Set Release file name
         run: |
-          $manifest = [xml]::new()
-          $manifest.Load('./src/StarrySky/source.extension.vsixmanifest')
-          $version = $manifest.PackageManifest.Metadata.Identity.Version
-          Write-Output $version
-          Write-Output "BUILD_VERSION=$version" | Out-File -FilePath $Env:GITHUB_ENV -Encoding utf8 -Append
+          VERSION=$(echo ${{ inputs.git-tag-version }} | sed -n 's/v\([0-9]*\.[0-9]*\.[0-9]\)/\1/p' )
+          echo "RELEASE_FILE=StarrySky-${VERSION}_bin.zip" >> $GITHUB_ENV
 
-      # Version Check
-      - name: Version Check
+      # Packaging
+      - name: Packaging
         run: |
-          $build_version = "v" + $($env:BUILD_VERSION)
-          Write-Output "Build Version = $build_version"
-          $tag_version = $($env:TAG_VERSION)
-          Write-Output "GitTag Version = $tag_version"
-          if (-Not($build_version -eq $tag_version)) {
-            Write-Output "Version Mismatch!"
-            exit 1
-          }
-
-      # Restore Apps
-      - name: Restore the app
-        run: |
-          msbuild /t:Restore /p:Configuration=Release
-
-      # Build Apps for release
-      - name: Build app for release
-        run: |
-          msbuild /p:Configuration=Release
-
-      # Zip artifacts
-      - name: Zip artifacts
-        run: |
-          $artifact = "StarrySky-$($env:BUILD_VERSION)_bin.zip"
-          Compress-Archive ./src/StarrySky/bin/Release/StarrySky.vsix $artifact
+          zip -r ${{ env.RELEASE_FILE }} ./StarrySky.vsix
 
       # Upload release Assets
       # https://github.com/AButler/upload-release-assets
       - uses: AButler/upload-release-assets@v3.0
         with:
-          files: "StarrySky-${{ env.BUILD_VERSION }}_bin.zip"
+          files:  ${{ env.RELEASE_FILE }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          release-tag: "v${{ env.BUILD_VERSION }}"
+          release-tag: ${{ inputs.git-tag-version }}
