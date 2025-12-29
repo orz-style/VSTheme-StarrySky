@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="src/StarrySky/StarrySky.csproj" Id="80919837-b7e1-4912-95dc-9bcabca88380">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
