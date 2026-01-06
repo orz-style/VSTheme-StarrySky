@@ -23,6 +23,10 @@
       <Color Name="ControlFillSecondary">
         <Background Type="CT_RAW" Source="FF0B5A18"/>
       </Color>
+      <!-- Combobox border color -->
+      <Color Name="ControlStrokeDefault">
+        <Background Type="CT_RAW" Source="FF007F00"/>
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
