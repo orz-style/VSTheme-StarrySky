@@ -11,6 +11,10 @@
       <Color Name="AccentFillTertiary">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
+      <!-- Input field background color when active in Start window-->
+      <Color Name="ControlFillActiveInput">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
