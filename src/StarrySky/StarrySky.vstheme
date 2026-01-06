@@ -1,14 +1,15 @@
 ﻿<Themes>
   <Theme Name="StarrySky" GUID="{e8e5a53f-c82a-441b-936d-782e23731b3d}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+      <!-- Accent color -->
       <Color Name="AccentFillDefault">
-        <Background Type="CT_RAW" Source="FF5649B0" />
+        <Background Type="CT_RAW" Source="FF007F00" />
       </Color>
       <Color Name="AccentFillSecondary">
-        <Background Type="CT_RAW" Source="E55649B0" />
+        <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
       <Color Name="AccentFillTertiary">
-        <Background Type="CT_RAW" Source="CC5649B0" />
+        <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FFF9F9F9" />
