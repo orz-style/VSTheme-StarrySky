@@ -19,6 +19,10 @@
       <Color Name="ControlFillDefault">
         <Background Type="CT_RAW" Source="FF06320E"/>
       </Color>
+      <!-- Combobox background color on hover -->
+      <Color Name="ControlFillSecondary">
+        <Background Type="CT_RAW" Source="FF0B5A18"/>
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
