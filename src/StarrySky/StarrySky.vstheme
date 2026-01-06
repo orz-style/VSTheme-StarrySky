@@ -19,8 +19,13 @@
       <Color Name="SurfaceBackgroundFillDefault">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
+      <!-- Primary text color -->
+      <Color Name="TextFillPrimary">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <!-- Secondary text color -->
       <Color Name="TextFillSecondary">
-        <Background Type="CT_RAW" Source="9E000000" />
+        <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
     <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
