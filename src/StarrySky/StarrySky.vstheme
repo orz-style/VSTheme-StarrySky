@@ -39,8 +39,9 @@
       <Color Name="EnvironmentBackground">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
+      <!-- IDE border color when active -->
       <Color Name="EnvironmentBorder">
-        <Background Type="CT_RAW" Source="FF5649B0" />
+        <Background Type="CT_RAW" Source="FF007F00" />
       </Color>
       <!-- Indicator color -->
       <Color Name="EnvironmentIndicator">
