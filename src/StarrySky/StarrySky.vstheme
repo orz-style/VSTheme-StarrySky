@@ -18,6 +18,10 @@
       <Color Name="SolidBackgroundFillQuarternary">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
+      <!-- Menu background color on hover -->
+      <Color Name="SubtleFillSecondary">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
       <Color Name="SurfaceBackgroundFillDefault">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
