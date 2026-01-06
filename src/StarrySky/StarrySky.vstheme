@@ -11,8 +11,9 @@
       <Color Name="AccentFillTertiary">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
+      <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
-        <Background Type="CT_RAW" Source="FFF9F9F9" />
+        <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
       <Color Name="SolidBackgroundFillQuarternary">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
