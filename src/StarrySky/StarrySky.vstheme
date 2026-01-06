@@ -15,6 +15,10 @@
       <Color Name="ControlFillActiveInput">
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
+      <!-- Combobox background color -->
+      <Color Name="ControlFillDefault">
+        <Background Type="CT_RAW" Source="FF06320E"/>
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
