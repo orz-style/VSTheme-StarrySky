@@ -38,8 +38,9 @@
       <Color Name="EnvironmentBorder">
         <Background Type="CT_RAW" Source="FF5649B0" />
       </Color>
+      <!-- Indicator color -->
       <Color Name="EnvironmentIndicator">
-        <Background Type="CT_RAW" Source="66757575" />
+        <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
       <!-- VS logo color -->
       <Color Name="EnvironmentLogo">
