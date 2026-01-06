@@ -39,8 +39,9 @@
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
-      <Color Name="SolidBackgroundFillQuarternary">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      <!-- Start window background color -->
+      <Color Name="SolidBackgroundFillQuaternary">
+        <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
       <!-- Menu background color on hover -->
       <Color Name="SubtleFillSecondary">
