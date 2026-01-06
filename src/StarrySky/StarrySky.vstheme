@@ -39,8 +39,9 @@
       <Color Name="EnvironmentIndicator">
         <Background Type="CT_RAW" Source="66757575" />
       </Color>
+      <!-- VS logo color -->
       <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FF5649B0" />
+        <Background Type="CT_RAW" Source="FF5D3FD3" />
       </Color>
       <Color Name="EnvironmentLayeredBackground">
         <Background Type="CT_RAW" Source="80FFFFFF" />
