@@ -55,6 +55,10 @@
       <Color Name="EnvironmentLayeredBackground">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
+      <!-- Badge color -->
+      <Color Name="EnvironmentBadge">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
     </Category>
   </Theme>
 </Themes>
