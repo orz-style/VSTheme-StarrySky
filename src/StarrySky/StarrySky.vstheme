@@ -31,6 +31,10 @@
       <Color Name="LayerFillDefault">
         <Background Type="CT_RAW" Source="FF2C214F" />
       </Color>
+      <!-- Detailed view background color in Extension Manager -->
+      <Color Name="SolidBackgroundFillBase">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
