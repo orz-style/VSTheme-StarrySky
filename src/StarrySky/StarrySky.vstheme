@@ -27,6 +27,10 @@
       <Color Name="ControlStrokeDefault">
         <Background Type="CT_RAW" Source="FF007F00"/>
       </Color>
+      <!-- Vertical tab background color, scrollbar background color on hover -->
+      <Color Name="LayerFillDefault">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
       <!-- Menu background color -->
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF06320E" />
