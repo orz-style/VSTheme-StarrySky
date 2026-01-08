@@ -231,6 +231,52 @@
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
     </Category>
+    <Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+      <!-- NuGet Package Manager -->
+      <Color Name="InnerTabActiveIndicator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="InnerTabSelectedIndicator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="InnerTabSelectedText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="InnerTabTextFocused">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="InnerTabTextHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="InnerTabTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- Chat Glyph-->
+      <Color Name="ListItemTextDisabled">
+        <Background Type="CT_RAW" Source="FF656565" />
+      </Color>
+
+      <!-- Extension Manager background -->
+      <Color Name="Page">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="PageBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+
+      <!-- Extension Manager Header -->
+      <Color Name="Caption">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FFF6F1FF" />
+      </Color>
+
+      <!-- Support Text Color -->
+      <Color Name="SupportText">
+        <Background Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
