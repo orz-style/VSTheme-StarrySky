@@ -85,6 +85,21 @@
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
     </Category>
+    <Category Name="Header" GUID="{4997f547-1379-456e-b985-2f413cdfa536}">
+      <!-- List Header -->
+      <Color Name="Default">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="MouseOver">
+        <Background Type="CT_RAW" Source="FF182333" />
+      </Color>
+      <Color Name="MouseDown">
+        <Background Type="CT_RAW" Source="FF182333" />
+      </Color>
+      <Color Name="SeparatorLine">
+        <Background Type="CT_RAW" Source="FF45425C" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
