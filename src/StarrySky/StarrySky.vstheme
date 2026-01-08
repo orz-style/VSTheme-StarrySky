@@ -277,6 +277,26 @@
         <Background Type="CT_RAW" Source="FF2AB6B3" />
       </Color>
     </Category>
+    <Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
+      <Color Name="Background">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="Glyph">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="SelectedItemActive">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="SelectedItemActiveGlyph">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="SelectedItemInactive">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
