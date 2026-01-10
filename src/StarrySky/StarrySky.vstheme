@@ -303,6 +303,379 @@
         <Foreground Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
+    <Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+      <!-- AutoHide Tab (VS2022) -->
+      <Color Name="AutoHideTabText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="AutoHideTabMouseOverBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="AutoHideTabMouseOverText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- Combobox in PMC (VS2022) -->
+      <Color Name="ComboBoxBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxBorder">
+        <Background Type="CT_RAW" Source="FF007F00" />
+      </Color>
+      <Color Name="ComboBoxButtonMouseDownSeparator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxButtonMouseOverSeparator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxButtonMouseDownBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxButtonMouseOverBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxFocusedBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxFocusBox">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxFocusedBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxFocusedButtonSeparator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxFocusedGlyph">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxItemText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="ComboBoxItemTextInactive">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxItemMouseOverBorder">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxItemMouseOverBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ComboBoxItemMouseOverText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxMouseDownBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxMouseOverBackgroundBegin">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxMouseOverBackgroundEnd">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxMouseOverBackgroundMiddle1">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxMouseOverBackgroundMiddle2">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxMouseOverBorder">
+        <Background Type="CT_RAW" Source="FF45425C" />
+      </Color>
+      <Color Name="ComboBoxMouseOverGlyph">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxPopupBackgroundBegin">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxPopupBackgroundEnd">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+
+      <!-- CommandBar -->
+      <Color Name="CommandBarBorder">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="CommandBarGradientBegin">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandBarGradientEnd">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandBarGradientMiddle">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandBarMenuBackgroundGradientBegin">
+        <Background Type="CT_RAW" Source="E006320E" />
+      </Color>
+      <Color Name="CommandBarMenuBackgroundGradientEnd">
+        <Background Type="CT_RAW" Source="E006320E" />
+      </Color>
+      <Color Name="CommandBarMenuIconBackground">
+        <Background Type="CT_RAW" Source="A006320E" />
+      </Color>
+      <Color Name="CommandBarMenuItemMouseOver">
+        <Background Type="CT_RAW" Source="8014102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="CommandBarMenuItemMouseOverBorder">
+        <Background Type="CT_RAW" Source="8014102C" />
+      </Color>
+      <Color Name="CommandBarTextActive">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="CommandBarSelected">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandBarTextHover">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="CommandBarTextHoverOverSelected">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+
+      <!-- Toolbar (VS2022) -->
+      <Color Name="CommandShelfBackgroundGradientBegin">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandShelfBackgroundGradientEnd">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandShelfBackgroundGradientMiddle">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandShelfHighlightGradientBegin">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandShelfHighlightGradientEnd">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="CommandShelfHighlightGradientMiddle">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+
+      <!-- Dropdown -->
+      <Color Name="DropDownBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownBorder">
+        <Background Type="CT_RAW" Source="FF007F00" />
+      </Color>
+      <Color Name="DropDownButtonMouseOverBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownButtonMouseDownSeparator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownButtonMouseOverBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownButtonMouseOverSeparator">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownPopupBackgroundBegin">
+        <Background Type="CT_RAW" Source="B006320E" />
+      </Color>
+      <Color Name="DropDownPopupBackgroundEnd">
+        <Background Type="CT_RAW" Source="B006320E" />
+      </Color>
+      <Color Name="DropDownPopupBorder">
+        <Background Type="CT_RAW" Source="FF333337" />
+      </Color>
+      <Color Name="DropDownText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownMouseDownText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="DropDownMouseOverBackgroundMiddle1">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownMouseOverBackgroundMiddle2">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownMouseOverGlyph">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="DropDownMouseOverText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownMouseOverBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownMouseDownBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="DropDownMouseDownBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="DropDownMouseOverBackgroundBegin">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="DropDownMouseOverBackgroundEnd">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+
+      <!-- IDE background (VS2022) -->
+      <Color Name="EnvironmentBackground">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+
+      <!-- Vertical tab (VS2022) -->
+      <Color Name="FileTabActiveGroupBackground">
+        <Background Type="CT_RAW" Source="FF271C4A" />
+      </Color>
+      <Color Name="FileTabActiveGroupTitleBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="FileTabBackground">
+        <Background Type="CT_RAW" Source="FF271C4A" />
+      </Color>
+      <Color Name="FileTabGroupTitleBackground">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="FileTabHotText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="FileTabHotGradientBottom">
+        <Background Type="CT_RAW" Source="802C214F" />
+      </Color>
+      <Color Name="FileTabHotGradientTop">
+        <Background Type="CT_RAW" Source="802C214F" />
+      </Color>
+      <Color Name="FileTabInactiveBorder">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="FileTabInactiveGradientBottom">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="FileTabInactiveGradientTop">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="FileTabInactiveText">
+        <Background Type="CT_RAW" Source="FF857EA0" />
+      </Color>
+      <Color Name="FileTabSelectedBackground">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="FileTabSelectedGradientBottom">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="FileTabSelectedGradientMiddle1">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="FileTabSelectedGradientMiddle2">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="FileTabSelectedText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- Git Changes Text -->
+      <Color Name="GrayText">
+        <Background Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+
+      <!-- Main Window (VS2022)-->
+      <Color Name="MainWindowActiveCaption">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="MainWindowSolutionNameActiveBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="MainWindowSolutionNameActiveText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="MainWindowSolutionNameInactiveBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="MainWindowSolutionNameInactiveText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- IDE bottom scrollbar -->
+      <Color Name="ScrollBarBackground">
+        <Background Type="CT_RAW" Source="FF191437" />
+      </Color>
+
+      <!-- Scrollbar thumb (VS2022) -->
+      <Color Name="ScrollBarThumbMouseOverBackground">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- Statusbar (VS2022) -->
+      <Color Name="StatusBarDefault">
+        <Background Type="CT_RAW" Source="FF06320E" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="StatusBarText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- Titlebar of Tool Window (VS2022) -->
+      <Color Name="TitleBarActiveGradientBegin">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="TitleBarActiveGradientEnd">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="TitleBarActiveGradientMiddle1">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="TitleBarActiveGradientMiddle2">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="TitleBarActiveText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="TitleBarInactiveGradientBegin">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="TitleBarInactiveGradientEnd">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+
+      <!-- Tool Window-->
+      <Color Name="ToolWindowBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ToolWindowTabMouseOverBackgroundBegin">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="ToolWindowTabMouseOverBackgroundEnd">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="ToolWindowTabMouseOverText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedActiveText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedBorder">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedTab">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ToolWindowTabText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ToolWindowText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+
+      <!-- Window -->
+      <Color Name="Window">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="WindowText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
