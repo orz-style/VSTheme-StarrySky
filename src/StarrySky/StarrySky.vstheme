@@ -676,6 +676,49 @@
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
     </Category>
+    <Category Name="TeamExplorer" GUID="{4aff231b-f28a-44f0-a66b-1beeb17cb920}">
+      <!-- Button in Git Changes Window-->
+      <Color Name="Button">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="ButtonPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+        <Foreground Type="CT_RAW" Source="FF00140B" />
+      </Color>
+      <Color Name="ButtonMouseOver">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ButtonMouseOverBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ButtonDisabled">
+        <Background Type="CT_RAW" Source="FF3A3D41" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ButtonDisabledBorder">
+        <Background Type="CT_RAW" Source="FF45425C" />
+      </Color>
+      <Color Name="ButtonBorder">
+        <Background Type="CT_RAW" Source="FF45425C" />
+      </Color>
+      <Color Name="ButtonPressedBorder">
+        <Background Type="CT_RAW" Source="FF1C97EA" />
+      </Color>
+
+      <!-- TextBox in Git Changes Window -->
+      <Color Name="TextBox">
+        <Background Type="CT_RAW" Source="FF06320E" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="TextBoxBorder">
+        <Background Type="CT_RAW" Source="FF007F00" />
+      </Color>
+      <Color Name="TextBoxHintText">
+        <Background Type="CT_RAW" Source="FF999999" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
