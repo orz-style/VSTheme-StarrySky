@@ -892,6 +892,80 @@
         <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
+    <Category Name="ThemedDialog" GUID="{5e04b2a9-e443-48db-8791-63a2a71cfbd7}">
+      <Color Name="ActionButtonBackground">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="ActionButtonText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+
+      <Color Name="HeaderText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+
+      <Color Name="Hyperlink">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="HyperlinkHover">
+        <Background Type="CT_RAW" Source="FF73FF91" />
+      </Color>
+      <Color Name="HyperlinkPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <Color Name="StartWindowDescription">
+        <Foreground Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+      <Color Name="StartWindowDescriptionActive">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="StartWindowDescriptionHover">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <Color Name="WindowPanel">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+    </Category>
+    <Category Name="StartPage" GUID="{65d78f35-869e-4bf3-8e52-991fee554a16}">
+      <Color Name="StartPageExpander">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="StartPageExpanderPressed">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+
+      <Color Name="StartPageListItem">
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="StartPageListItemGlyph">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="StartPageListItemHover">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="StartPageListItemPressed">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <Color Name="StartPageNewText">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Foreground Type="CT_RAW" Source="FF252526" />
+      </Color>
+
+      <Color Name="StartPageSupportText">
+        <Foreground Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+      <Color Name="StartPageSupportTextHover">
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
