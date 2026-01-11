@@ -976,6 +976,16 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
+    <Category Name="Immediate Window" GUID="{6bb65c5a-2f31-4bde-9f48-8a38dc0c63e7}">
+      <Color Name="Plain Text">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="Selected Text">
+        <Background Type="CT_RAW" Source="FFCC00FF" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
