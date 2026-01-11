@@ -986,6 +986,37 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
+    <Category Name="VSSearch" GUID="{04ba5a31-6d4d-4225-9194-2e38a9175e31}">
+      <Color Name="ListItemBorderHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemBackgroundHover">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ListItemSupportTextHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <Color Name="TabSelectionActive">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+
+      <Color Name="WindowPanel">
+        <Background Type="CT_RAW" Source="E006320E" />
+      </Color>
+      <Color Name="WindowPanelBorder">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="WindowPanelSupportText">
+        <Background Type="CT_RAW" Source="FF01DF2F" />
+      </Color>
+      <Color Name="WindowPanelTabDivider">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="WindowPanelText">
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
