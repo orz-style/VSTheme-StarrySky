@@ -97,7 +97,7 @@ jobs:
       - name: Set artifact name
         id: set-artifact-name
         run: |
-          "artifact-name=StarrySky-${{ env.BUILD_VERSION }}.${{ github.run_number }}" | 
+          "artifact-name=StarrySky-${{ env.BUILD_VERSION }}-ci.${{ github.run_number }}" |
             Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
 
       # Upload artifacts
