@@ -35,7 +35,7 @@ jobs:
       # Packaging
       - name: Packaging
         run: |
-          zip -r ${{ env.RELEASE_FILE }} ./StarrySky.vsix
+          zip -r ${{ env.RELEASE_FILE }} ./StarrySky.vsix ./publishManifest.json
 
       # Upload release Assets
       # https://github.com/AButler/upload-release-assets
