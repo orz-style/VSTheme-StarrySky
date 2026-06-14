@@ -2,5 +2,12 @@
     "publisher": "kgh02017",
     "identity": {
         "internalName": "starrysky"
-    }
+    },
+    "categories": [
+        "other"
+    ],
+    "tags": [
+        "Themes"
+    ],
+    "overview": "overview.md"
 }

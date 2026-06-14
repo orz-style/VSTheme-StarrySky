@@ -99,6 +99,7 @@ jobs:
           mkdir -p ./artifacts
           Copy-Item -Path './src/StarrySky/bin/Release/StarrySky.vsix' -Destination './artifacts/'
           Copy-Item -Path './src/StarrySky/publishManifest.json' -Destination './artifacts/'
+          Copy-Item -Path './src/StarrySky/overview.md' -Destination './artifacts/'
 
       # Set up artifact name
       - name: Set artifact name
@@ -116,3 +117,4 @@ jobs:
           path: |
               ./artifacts/StarrySky.vsix
               ./artifacts/publishManifest.json
+              ./artifacts/overview.md
