@@ -4,10 +4,7 @@ StarrySky Theme for Visual Studio 2022/2026
 
 ## Screenshots
 
-![blank](./StarrySky-ss1.png)
-
-![C#](./StarrySky-ss2.png)
-
+![C#](./StarrySky-ss.png)
 
 ## Installation
 
