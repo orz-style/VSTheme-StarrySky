@@ -1,100 +1,216 @@
 ﻿<Themes>
   <Theme Name="StarrySky" GUID="{e8e5a53f-c82a-441b-936d-782e23731b3d}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
-      <!-- Accent color -->
+      <!-- Top menu item background / Open menu item background / Inactive document tab background / Scrollbar track -->
+      <Color Name="ControlFillTransparent">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Base background of the entire opened menu -->
+      <Color Name="SurfaceBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Menu item background (hover) -->
+      <Color Name="SubtleFillSecondary">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <!-- Menu item background (click/pressed) -->
+      <Color Name="SubtleFillTertiary">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <!-- Menu item border -->
+      <Color Name="ControlStrokeTransparent">
+        <Background Type="CT_RAW" Source="220C201E" />
+      </Color>
+      <!-- Selected menu item border -->
+      <Color Name="ControlStrokeSecondary">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <!-- Opened menu outer border -->
+      <Color Name="SurfaceStrokeFlyout">
+        <Background Type="CT_RAW" Source="55007F00" />
+      </Color>
+      <!-- Separator line within the opened menu -->
+      <Color Name="DividerStrokeDefault">
+        <Background Type="CT_RAW" Source="15007F00" />
+      </Color>
+      <!-- Checkbox background (unchecked) -->
+      <Color Name="ControlAltFillSecondary">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Checkbox background (disabled) -->
+      <Color Name="ControlAltFillDisabled">
+        <Background Type="CT_RAW" Source="660C201E" />
+      </Color>
+      <!-- Checkbox border -->
+      <Color Name="ControlStrongStrokeDefault">
+        <Background Type="CT_RAW" Source="FF007F00" />
+      </Color>
+      <!-- Hyperlink text -->
+      <Color Name="HyperlinkFillPrimary">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <!-- Hyperlink text (hover) -->
+      <Color Name="HyperlinkFillSecondary">
+        <Background Type="CT_RAW" Source="FF4DFF6A" />
+      </Color>
+      <!-- Warning notification bar background -->
+      <Color Name="SystemFillCautionBackground">
+        <Background Type="CT_RAW" Source="FF5A3A18" />
+      </Color>
+      <!-- Scrollbar thumb -->
+      <Color Name="ControlStrongFillDefault">
+        <Background Type="CT_RAW" Source="FF4E4E4E" />
+      </Color>
+      <!-- Vertical tab background  / scrollbar thumb hover layer -->
+      <Color Name="LayerFillDefault">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <!-- Primary text -->
+      <Color Name="TextFillPrimary">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <!-- Supplementary text -->
+      <Color Name="TextFillSecondary">
+        <Background Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+      <!-- Text (disabled) -->
+      <Color Name="TextFillDisabled">
+        <Background Type="CT_RAW" Source="6611D431" />
+      </Color>
+      <!-- Start window card border, separator -->
+      <Color Name="CardStrokeDefault">
+        <Background Type="CT_RAW" Source="33007F00" />
+      </Color>
+      <!-- Accent colors -->
       <Color Name="AccentFillDefault">
         <Background Type="CT_RAW" Source="FF007F00" />
       </Color>
       <Color Name="AccentFillSecondary">
-        <Background Type="CT_RAW" Source="FF14102C" />
+        <Background Type="CT_RAW" Source="99007F00" />
       </Color>
       <Color Name="AccentFillTertiary">
-        <Background Type="CT_RAW" Source="FF14102C" />
+        <Background Type="CT_RAW" Source="66007F00" />
       </Color>
-      <!-- Input field background color when active in Start window-->
+      <!-- Active input field background in Start window -->
       <Color Name="ControlFillActiveInput">
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
-      <!-- Combobox background color -->
+      <!-- Combobox background / Button background -->
       <Color Name="ControlFillDefault">
         <Background Type="CT_RAW" Source="FF06320E"/>
       </Color>
-      <!-- Combobox background color on hover -->
+      <!-- Combobox background (hover) / Button background (hover) -->
       <Color Name="ControlFillSecondary">
         <Background Type="CT_RAW" Source="FF0B5A18"/>
       </Color>
-      <!-- Combobox border color -->
+      <!-- Combobox border / Button border -->
       <Color Name="ControlStrokeDefault">
         <Background Type="CT_RAW" Source="FF007F00"/>
       </Color>
-      <!-- Vertical tab background color, scrollbar background color on hover -->
-      <Color Name="LayerFillDefault">
-        <Background Type="CT_RAW" Source="FF2C214F" />
-      </Color>
-      <!-- Detailed view background color in Extension Manager -->
+      <!-- Detailed view background color in Extension Manager  -->
       <Color Name="SolidBackgroundFillBase">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
-      <!-- Menu background color -->
+      <!-- Active tab in tool window tabs / Toolbar background of Tool windows -->
       <Color Name="SolidBackgroundFillTertiary">
-        <Background Type="CT_RAW" Source="FF06320E" />
+        <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
-      <!-- Start window background color -->
+      <!-- Start window background -->
       <Color Name="SolidBackgroundFillQuaternary">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
-      <!-- Menu background color on hover -->
-      <Color Name="SubtleFillSecondary">
-        <Background Type="CT_RAW" Source="FF0C201E" />
-      </Color>
-      <Color Name="SurfaceBackgroundFillDefault">
-        <Background Type="CT_RAW" Source="FF14102C" />
-      </Color>
-      <!-- Primary text color -->
-      <Color Name="TextFillPrimary">
-        <Background Type="CT_RAW" Source="FF11D431" />
-      </Color>
-      <!-- Secondary text color -->
-      <Color Name="TextFillSecondary">
-        <Background Type="CT_RAW" Source="FF11D431" />
-      </Color>
     </Category>
     <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
-      <!-- IDE background color -->
-      <Color Name="EnvironmentBackground">
-        <Background Type="CT_RAW" Source="FF14102C" />
+      <!-- Tool window title bar background -->
+      <Color Name="EnvironmentHeader">
+        <Background Type="CT_RAW" Source="FF0C201E" />
       </Color>
-      <!-- IDE border color when active -->
+      <!-- Tool window title bar background (inactive) -->
+      <Color Name="EnvironmentHeaderInactive">
+        <Background Type="CT_RAW" Source="660C201E" />
+      </Color>
+      <!-- Tool window border -->
       <Color Name="EnvironmentBorder">
         <Background Type="CT_RAW" Source="FF007F00" />
       </Color>
-      <!-- Indicator color -->
+      <!-- Tool window border (inactive) -->
+      <Color Name="EnvironmentBorderInactive">
+        <Background Type="CT_RAW" Source="66007F00" />
+      </Color>
+      <!-- Auto-hide tab indicator  -->
       <Color Name="EnvironmentIndicator">
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
-      <!-- VS logo color -->
-      <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FF5D3FD3" />
-      </Color>
-      <!-- Toolbar background color -->
+      <!-- Toolbar background -->
       <Color Name="EnvironmentLayeredBackground">
         <Background Type="CT_RAW" Source="FF14102C" />
       </Color>
-      <!-- Badge color -->
+      <!-- Toolbar outer border -->
+      <Color Name="EnvironmentLayeredBorder">
+        <Background Type="CT_RAW" Source="22007F00" />
+      </Color>
+      <!-- Document tab background (active) -->
+      <Color Name="EnvironmentTab">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <!-- Statusbar button background (hover) -->
+      <Color Name="StatusBarControlFillSecondary">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <!-- Statusbar background -->
+      <Color Name="StatusBarBackgroundFillRest">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Statusbar Text -->
+      <Color Name="StatusBarTextFillRest">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <!-- IDE background -->
+      <Color Name="EnvironmentBody">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <!-- Main Window Header (Menu, Toolbar) background  -->
+      <Color Name="EnvironmentBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <!-- VS logo in Main Window Header -->
+      <Color Name="EnvironmentLogo">
+        <Background Type="CT_RAW" Source="FF5D3FD3" />
+      </Color>
+      <!-- Badge in Main Window Header -->
       <Color Name="EnvironmentBadge">
         <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <!-- Statusbar background while building -->
+      <Color Name="StatusBarBackgroundFillBuilding">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Statusbar background while debugging -->
+      <Color Name="StatusBarBackgroundFillDebugging">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Statusbar background while loading solution -->
+      <Color Name="StatusBarBackgroundFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FF0C201E" />
+      </Color>
+      <!-- Statusbar text -->
+      <Color Name="StatusBarTextFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
     <Category Name="Header" GUID="{4997f547-1379-456e-b985-2f413cdfa536}">
       <!-- List Header -->
       <Color Name="Default">
         <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
       </Color>
       <Color Name="MouseOver">
         <Background Type="CT_RAW" Source="FF182333" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
       </Color>
       <Color Name="MouseDown">
         <Background Type="CT_RAW" Source="FF182333" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="SeparatorLine">
         <Background Type="CT_RAW" Source="FF45425C" />
@@ -249,6 +365,33 @@
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
       <Color Name="InnerTabTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemBackgroundHover">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="ListItemBackgroundPressed">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ListItemBackgroundSelected">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ListItemText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextFocused">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextSelected">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextUnfocused">
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
 
@@ -674,6 +817,14 @@
       </Color>
       <Color Name="WindowText">
         <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- NuGet Manager  -->
+      <Color Name="BrandedUIBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="BrandedUIText">
+        <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
     <Category Name="TeamExplorer" GUID="{4aff231b-f28a-44f0-a66b-1beeb17cb920}">
