@@ -6,9 +6,6 @@ on:
       - "main"
   release:
     types: [published]
-  push:
-    branches:
-      - "main"
 
 permissions:
   contents: read
@@ -29,6 +26,7 @@ jobs:
     with:
       artifact-name: ${{ needs.ci-build.outputs.artifact-name }}
     secrets: inherit
+    if: github.event_name == 'pull_request'
 
   # Build Job for Release
   release-build:
