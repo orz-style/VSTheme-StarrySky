@@ -202,12 +202,15 @@
       <!-- List Header -->
       <Color Name="Default">
         <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
       </Color>
       <Color Name="MouseOver">
         <Background Type="CT_RAW" Source="FF182333" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
       </Color>
       <Color Name="MouseDown">
         <Background Type="CT_RAW" Source="FF182333" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="SeparatorLine">
         <Background Type="CT_RAW" Source="FF45425C" />
@@ -362,6 +365,33 @@
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
       <Color Name="InnerTabTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemBackgroundHover">
+        <Background Type="CT_RAW" Source="FF392891" />
+      </Color>
+      <Color Name="ListItemBackgroundPressed">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ListItemBackgroundSelected">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ListItemText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextFocused">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextSelected">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemTextUnfocused">
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
 
@@ -787,6 +817,14 @@
       </Color>
       <Color Name="WindowText">
         <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
+      <!-- NuGet Manager  -->
+      <Color Name="BrandedUIBackground">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="BrandedUIText">
+        <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
     <Category Name="TeamExplorer" GUID="{4aff231b-f28a-44f0-a66b-1beeb17cb920}">
