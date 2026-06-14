@@ -44,12 +44,3 @@ jobs:
           files:  ${{ env.RELEASE_FILE }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ inputs.git-tag-version }}
-
-      # Publish to Visual Studio Marketplace
-      # https://github.com/cezarypiatek/VsixPublisherAction
-      - name: Publish to Visual Studio Marketplace
-        uses: cezarypiatek/VsixPublisherAction@1.2
-        with:
-          extension-file: StarrySky.vsix
-          publish-manifest-file: publishManifest.json
-          personal-access-code: ${{ secrets.VSIX_MARKETPLACE_PAT }}

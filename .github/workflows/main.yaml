@@ -48,6 +48,14 @@ jobs:
       git-tag-version: ${{ github.ref_name }}
     secrets: inherit
 
+  # Publish Job
+  publish:
+    needs: release-build
+    uses: ./.github/workflows/publish.yaml
+    with:
+      artifact-name: ${{ needs.release-build.outputs.artifact-name }}
+    secrets: inherit
+
   # Release Drafter Job
   update_release_draft:
     permissions:

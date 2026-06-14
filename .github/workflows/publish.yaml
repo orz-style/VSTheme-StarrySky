@@ -1,0 +1,29 @@
+name: Publish Marketplace
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        description: 'The name of artifacts to release'
+        required: true
+        type: string
+
+jobs:
+  publish:
+    name: publish
+    runs-on: windows-latest
+    steps:
+      # Download artifact
+      # https://github.com/actions/download-artifact
+      - uses: actions/download-artifact@v5
+        with:
+          name: ${{ inputs.artifact-name }}
+
+      # Publish to Visual Studio Marketplace
+      # https://github.com/cezarypiatek/VsixPublisherAction
+      - name: Publish to Visual Studio Marketplace
+        uses: cezarypiatek/VsixPublisherAction@1.2
+        with:
+          extension-file: StarrySky.vsix
+          publish-manifest-file: publishManifest.json
+          personal-access-code: ${{ secrets.VSIX_MARKETPLACE_PAT }}
