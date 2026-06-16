@@ -251,6 +251,30 @@
       </Color>
 
       <!-- ComboBox -->
+      <Color Name="ComboBoxBackground">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxBackgroundFocused">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxBackgroundHover">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxBackgroundPressed">
+        <Background Type="CT_RAW" Source="FF06320E" />
+      </Color>
+      <Color Name="ComboBoxGlyph">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxGlyphFocused">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxGlyphHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxGlyphPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
       <Color Name="ComboBoxListBackground">
         <Background Type="CT_RAW" Source="FF06320E" />
       </Color>
@@ -268,6 +292,18 @@
       </Color>
       <Color Name="ComboBoxListItemBorderHover">
         <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="ComboBoxText">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxTextFocused">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxTextHover">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ComboBoxTextPressed">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
 
       <!-- Textbox -->
@@ -1072,6 +1108,36 @@
       <Color Name="HyperlinkPressed">
         <Background Type="CT_RAW" Source="FF1AFE49" />
       </Color>
+
+      <Color Name="ListBoxBorder">
+        <Background Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListBox">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FFF6F1F1" />
+      </Color>
+      <Color Name="ListBoxDisabled">
+        <Background Type="CT_RAW" Source="FF2D2D30" />
+      </Color>
+      <Color Name="ListBoxDisabledBorder">
+        <Background Type="CT_RAW" Source="FF45425C" />
+      </Color>
+      <Color Name="ListItemMouseOver">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ListItemDisabledText">
+        <Background Type="CT_RAW" Source="FF656565" />
+      </Color>
+      <Color Name="SelectedItemActive">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="SelectedItemInactive">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+
 
       <Color Name="StartWindowDescription">
         <Foreground Type="CT_RAW" Source="FF2AB6B3" />
