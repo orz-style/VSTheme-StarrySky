@@ -1258,6 +1258,32 @@
         <Foreground Type="CT_RAW" Source="FF11D431" />
       </Color>
     </Category>
+    <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
+      <Color Name="Body">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="ContentSectionHeader">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="H1">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="Hyperlink">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="HyperlinkActive">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="HyperlinkHover">
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="NumberedListItem">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+      <Color Name="NumberedListItemHover">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
