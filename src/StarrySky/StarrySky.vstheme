@@ -1306,6 +1306,57 @@
         <Background Type="CT_RAW" Source="FF2C214F" />
       </Color>
     </Category>
+    <Category Name="NewProjectDialog" GUID="{c36c426e-31c9-4048-84cf-31c111d65ec0}">
+      <Color Name="Background">
+        <Background Type="CT_RAW" Source="FF14102C" />
+      </Color>
+      <Color Name="BackgroundLowerRegion">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FFF6F1FF" />
+      </Color>
+      <Color Name="Content">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="ContentInactiveSelected">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ContentMouseOver">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="ContentSelected">
+        <Background Type="CT_RAW" Source="FF392891" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="ContentSelectedBorder">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="Details">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF2AB6B3" />
+      </Color>
+      <Color Name="Wonderbar">
+        <Background Type="CT_RAW" Source="FF2C214F" />
+        <Foreground Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="WonderbarMouseOver">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="WonderbarSelectedBorder">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
+      <Color Name="WonderbarTreeSelected">
+        <Background Type="CT_RAW" Source="FF14102C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+      <Color Name="WonderbarTreeInactiveSelected">
+        <Background Type="CT_RAW" Source="FF45425C" />
+        <Foreground Type="CT_RAW" Source="FF1AFE49" />
+      </Color>
+    </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Indicator Margin">
         <Background Type="CT_RAW" Source="FF372963" />
