@@ -205,6 +205,10 @@
       <Color Name="StatusBarTextFillSolutionLoading">
         <Background Type="CT_RAW" Source="FF11D431" />
       </Color>
+      <!-- AutoHideTab Text -->
+      <Color Name="EnvironmentBodyText">
+        <Background Type="CT_RAW" Source="FF11D431" />
+      </Color>
     </Category>
     <Category Name="Header" GUID="{4997f547-1379-456e-b985-2f413cdfa536}">
       <!-- List Header -->
